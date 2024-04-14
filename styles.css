@@ -1,0 +1,32 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#game-container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    border: 2px solid black;
+}
+
+#ball, #goal, #obstacle {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+#ball {
+    background-color: red;
+    border-radius: 50%;
+}
+
+#goal {
+    background-color: green;
+}
+
+#obstacle {
+    background-color: blue;
+}
